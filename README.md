@@ -20,7 +20,15 @@ http://localhost:8080/icbt_web/icbt-demo-1/api_user.php
   "email": "alice@example.com"
 }
 
-
 ### GET
 
 http://localhost:8080/icbt_web/icbt-demo-1/api_user.php
+
+# Database Backup
+
+mysqldump -u root -p icbt-db > icbt-db.sql
+
+C:\xampp\mysql\bin\mysqldump.exe -u root -p icbt-db > icbt-db.sql
+
+# Database Restore
+
