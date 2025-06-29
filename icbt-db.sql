@@ -27,7 +27,7 @@ CREATE TABLE `users` (
   `name` varchar(100) DEFAULT NULL,
   `email` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,35 +36,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-
-INSERT INTO users (id, name, email) VALUES
-(1, 'Alice', 'alice@example.com'),
-(2, 'Rukshan', 'rukshan@example.com'),
-(3, 'Nuwan', 'nuwan@example.com'),
-(4, 'John', 'john@example.com'),
-(5, 'Saman', 'saman@example.com'),
-(6, 'Kasun', 'kasun@example.com'),
-(7, 'Amaya', 'amaya@example.com'),
-(8, 'Dilani', 'dilani@example.com'),
-(9, 'Madu', 'madu@example.com'),
-(10, 'Sameera', 'sameera@example.com'),
-(11, 'Ishara', 'ishara@example.com'),
-(12, 'Chathura', 'chathura@example.com'),
-(13, 'Hasini', 'hasini@example.com'),
-(14, 'Tharindu', 'tharindu@example.com'),
-(15, 'Nadeesha', 'nadeesha@example.com'),
-(16, 'Shani', 'shani@example.com'),
-(17, 'Vimukthi', 'vimukthi@example.com'),
-(18, 'Buddhika', 'buddhika@example.com'),
-(19, 'Gayani', 'gayani@example.com'),
-(20, 'Sachini', 'sachini@example.com'),
-(21, 'Nimali', 'nimali@example.com'),
-(22, 'Harsha', 'harsha@example.com'),
-(23, 'Dinesh', 'dinesh@example.com'),
-(24, 'Thilini', 'thilini@example.com'),
-(25, 'Pradeep', 'pradeep@example.com');
-
-
+INSERT INTO `users` VALUES (1,'Alice','alice@example.com'),(2,'Rukshan','rukshan@example.com'),(3,'Nuwan','nuwan@example.com'),(4,'John','john@example.com'),(5,'Saman','saman@example.com'),(6,'Kasun','kasun@example.com'),(7,'Amaya','amaya@example.com'),(8,'Dilani','dilani@example.com'),(9,'Madu','madu@example.com'),(10,'Sameera','sameera@example.com'),(11,'Ishara','ishara@example.com'),(12,'Chathura','chathura@example.com'),(13,'Hasini','hasini@example.com'),(14,'Tharindu','tharindu@example.com'),(15,'Nadeesha','nadeesha@example.com'),(16,'Shani','shani@example.com'),(17,'Vimukthi','vimukthi@example.com'),(18,'Buddhika','buddhika@example.com'),(19,'Gayani','gayani@example.com'),(20,'Sachini','sachini@example.com'),(21,'Nimali','nimali@example.com'),(22,'Harsha','harsha@example.com'),(23,'Dinesh','dinesh@example.com'),(24,'Thilini','thilini@example.com'),(25,'Pradeep','pradeep@example.com'),(26,'Kamal','kamal@example.com'),(27,'Kamal','kamal@example.com'),(28,'Kamal','kamal@example.com');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -77,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-06-29 15:58:38
+-- Dump completed on 2025-06-29 16:21:01

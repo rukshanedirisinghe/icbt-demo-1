@@ -32,7 +32,7 @@ C:\xampp\mysql\bin\mysqldump.exe -u root -p icbt-db > icbt-db.sql
 
 # Database Restore
 
-mysql -u root -p icbt-db < icbt-db.sql
+C:\xampp\mysql\bin\mysql.exe -u root -p icbt-db < icbt-db.sql
 
 
 ## GIT Commands
