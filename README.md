@@ -8,5 +8,18 @@ Backend: PHP
 Database: Mysql
 Frontend: HTML, CSS, JS with Bootstrap - 5
 
-Test
+## How to call API
+
+
+### POST
+
+http://localhost:8080/icbt_web/icbt-demo-1/api_user.php
+
+{
+  "name": "Alice",
+  "email": "alice@example.com"
+}
+
+
+
 
