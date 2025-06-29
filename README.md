@@ -21,5 +21,6 @@ http://localhost:8080/icbt_web/icbt-demo-1/api_user.php
 }
 
 
+### GET
 
-
+http://localhost:8080/icbt_web/icbt-demo-1/api_user.php
