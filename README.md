@@ -32,3 +32,13 @@ C:\xampp\mysql\bin\mysqldump.exe -u root -p icbt-db > icbt-db.sql
 
 # Database Restore
 
+mysql -u root -p mydb < mydb_backup.sql
+
+
+## GIT Commands
+
+git status
+git add .
+git commit -m "Your descriptive Comment"
+git push
+
